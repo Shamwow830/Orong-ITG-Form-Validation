@@ -1,0 +1,26 @@
+body{
+    font-size: large;    
+}
+
+.head {
+    border-style:solid ;
+    border-color: black;
+    margin-left: 7.5%;
+    margin-bottom: 1%;
+    margin-right: 7.5%;
+    text-align: center;
+}
+
+.form{
+margin-left: 7.5%;
+margin-right: 7.5%;
+}
+
+
+.but1{
+     margin-left: 45%;
+}
+
+.but2{
+    margin-right: 35%;
+}

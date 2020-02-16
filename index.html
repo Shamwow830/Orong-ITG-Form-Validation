@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/form.css">
+    <script src="js/form.js"></script>
+</head>
+<body>
+    <div class="head">
+        <h1> Create a New Event</h1>
+    </div>
+    <div class="form">
+        <fieldset>
+            <form action="" onsubmit="return form()">
+                <label>Event Type: </label>
+                <select id="event">
+                    <option value=""> Choose Event</option>
+                    <option value="sports"> Sports </option>
+                    <option value="sem"> Seminar </option>
+                    <option value="wed"> Wedding </option>
+                    <option value="party"> Party </option>
+                    <option value="other"> Other </option>
+                </select><br><br>
+                <label> Event Title: <input type="text" id="title"  > </label><br><br>
+                <label>Event Dates: <input id="date1" type="date" required> to <input id="date2" type="date" required></label> <br><br>
+                <label>Posting Date: <input id="pdate" type="date" required> </label> <br><br>
+                <label><input type="checkbox">Is registration required?</label> <br><br>
+                <label><input type="checkbox">Is this event associated with any Family Programs</label> <br><br>
+                <label><input type="checkbox">Is Upon Registration Completion, Are Users to Receive an Auto Generated Email?</label> <br><br>
+                <label><input type="checkbox">Is There a Point of Contact?</label> <br><br>
+                <label><input type="checkbox">Is There a Hosting Command Point of Contact?</label> <br><br>
+                <button  type="submit" class="but1">Save</button>
+                <input type="reset" value="Cancel" class="but2">
+            </form>
+        </fieldset>
+    </div>
+</body>
+</html>
